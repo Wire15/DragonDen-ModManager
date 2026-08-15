@@ -86,7 +86,7 @@ public partial class TitleBar : UserControl
 
     private void OnOpenIssuesPage(object? sender, RoutedEventArgs e)
     {
-        var url = "https://github.com/Drexira/DragonDen-ModManager/issues";
+        var url = "https://github.com/Wire15/DragonDen-ModManager/issues";
 
         if (!string.IsNullOrWhiteSpace(url))
             try

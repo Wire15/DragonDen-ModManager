@@ -1,5 +1,7 @@
 ﻿<h1 align="center"><em>Dragon Den Mod Manager</em></h1>
 
+> **Fork notice:** This is a maintained fork of Dragon Den Mod Manager, updated for the Forge's move from `forge.sp-tarkov.com` to `sp-mod.com`. A Forge API token is now **optional** — the new API works unauthenticated.
+
 A mod manager for SPT mods built with Avalonia UI and .NET 9.  
 It indexes mods from Forge, lets users search/filter, and installs or uninstalls versions that match their SPT server.  
 The manager keeps a local cache for fast browsing and provides rich, non-blocking loading UX.
@@ -27,7 +29,7 @@ This readme is for developers who want to contribute.
 * .NET 9 SDK
 * Windows 10/11
     * Primary target: Windows 10/11
-* A valid Forge API token
+* A Forge API token (optional — the new sp-mod.com API works without one)
 * An SPT root folder (to detect SPT version and manage installs)
 
 ---

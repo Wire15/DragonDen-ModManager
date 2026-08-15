@@ -213,7 +213,7 @@ public partial class BrowseModsPage : UserControl
     private bool _updatingSptFilter;
     private bool _pagingInitialized;
     
-    private const string BlacklistUrl = "https://raw.githubusercontent.com/Drexira/DragonDen-ModManager/refs/heads/Public/BlacklistMods.json";
+    private const string BlacklistUrl = "https://raw.githubusercontent.com/Wire15/DragonDen-ModManager/refs/heads/Public/BlacklistMods.json";
     private static readonly SemaphoreSlim _blacklistGate = new(1, 1);
     private static HashSet<string> _blacklist = new(StringComparer.OrdinalIgnoreCase);
     private static DateTimeOffset _blacklistFetchedAt = DateTimeOffset.MinValue;

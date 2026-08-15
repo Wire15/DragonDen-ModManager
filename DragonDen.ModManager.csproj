@@ -12,10 +12,10 @@
         <Copyright>Drexira</Copyright>
         <Title>Dragon Den Mod Manager</Title>
         <Description>A mod manager for SPT</Description>
-        <PackageProjectUrl>https://github.com/Drexira/DragonDen-ModManager</PackageProjectUrl>
-        <PackageLicenseUrl>https://github.com/Drexira/DragonDen-ModManager/blob/Public/LICENSE</PackageLicenseUrl>
+        <PackageProjectUrl>https://github.com/Wire15/DragonDen-ModManager</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/Wire15/DragonDen-ModManager/blob/Public/LICENSE</PackageLicenseUrl>
         <PackageIcon>Assets\icon.png</PackageIcon>
-        <RepositoryUrl>https://github.com/Drexira/DragonDen-ModManager</RepositoryUrl>
+        <RepositoryUrl>https://github.com/Wire15/DragonDen-ModManager</RepositoryUrl>
         <RepositoryType>Github</RepositoryType>
         <Company>Dragon Den</Company>
         <Product>ModManager</Product>
